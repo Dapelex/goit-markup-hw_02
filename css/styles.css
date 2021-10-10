@@ -66,7 +66,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-sec-text-color);
+  color: var(--header-text-color);
 }
 
 .menu-link:hover,
@@ -79,7 +79,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--header-sec-text-color);
 }
 
 .header-mail:hover,
@@ -92,7 +92,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--header-text-color);
+  color: var(--header-sec-text-color);
 }
 
 .header-tel:hover,
@@ -117,6 +117,7 @@ body {
 }
 
 .btn-main {
+  font-family: inherit;
   font-weight: 700;
   color: #ffffff;
   background: #2196f3;
@@ -236,6 +237,7 @@ body {
 /*----------------portfolio--------------*/
 
 .btn-portfolio {
+  font-family: inherit;
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
